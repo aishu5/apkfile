@@ -1,0 +1,11 @@
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
+
+	public class sce1 : MonoBehaviour {
+
+		public void changetoscene(string scenetochangeto){
+			Application.LoadLevel (scenetochangeto);
+			gameObject.SetActive(true);
+		}
+	}
